@@ -1,0 +1,13 @@
+**/.terraform/
+*.tfstate
+*.tfstate.backup
+*.tfvars
+.terraform.lock.hcl
+__pycache__/
+*.pyc
+.env
+venv/
+.venv/
+*.zip
+*.log
+.aws/
