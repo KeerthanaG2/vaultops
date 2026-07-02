@@ -114,3 +114,5 @@ output "ec2_public_ip" {
   description = "Public IP of the VaultOps API server — use this to SSH and test"
   value       = aws_instance.vaultops_api.public_ip
 }
+
+
