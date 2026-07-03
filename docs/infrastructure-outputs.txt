@@ -1,0 +1,17 @@
+audit_logs_bucket = "vaultops-audit-logs-269531437067"
+cloudtrail_arn = "arn:aws:cloudtrail:ap-south-1:269531437067:trail/vaultops-trail"
+ec2_public_ip = "13.206.198.96"
+ecr_api_url = "269531437067.dkr.ecr.ap-south-1.amazonaws.com/vaultops-api"
+ecr_webhook_url = "269531437067.dkr.ecr.ap-south-1.amazonaws.com/vaultops-webhook"
+private_subnet_ids = [
+  "subnet-05f56d51d4df04342",
+  "subnet-0ca3e9e4ec9982d00",
+]
+public_subnet_ids = [
+  "subnet-0da21c248956b9118",
+  "subnet-0e5c42c6c578aef31",
+]
+rds_endpoint = "vaultops-db.clgcuc6ia8jn.ap-south-1.rds.amazonaws.com:5432"
+secret_arn = "arn:aws:secretsmanager:ap-south-1:269531437067:secret:vaultops/rds-password-cXV7cM"
+vpc_id = "vpc-09fd6e26fffb56bab"
+webhook_role_arn = "arn:aws:iam::269531437067:role/vaultops-webhook-role"
